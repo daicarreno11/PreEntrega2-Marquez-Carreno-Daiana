@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>INICIO</title>
+</head>
+
+<body class="birds">
+
+    <header class="header">
+        <div class="header__logo">
+            <a href="../index.html"><img src="../img/flight.png" alt="logo de la empresa"></a>
+            <h1 class="header__title">Traveleando Viajes</h1>
+        </div>
+        <nav>
+            <ul class="header__nav">
+                <li><a class="links" href="../pages/destinos.html">Destinos</a></li>
+                <li><a class="links" href="../pages/experiencias.html">Experiencias</a></li>
+                <li><a class="links" href="../pages/precios.html">Precios</a></li>
+                <li><a class="links" href="../pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="main-contacto">
+
+        <section class="formulario">
+            <h2 class="formulario__title">Formulario de Contacto</h2>
+            <p>Brindá tus datos, escribí cualquier pregunta que tengas y nos pondremos en contacto lo más pronto posible.</p>
+            <form class="formulario__caja" action="">
+                <div>
+                    <label for="nombreusuario">Nombre y Apellido</label>
+                    <input type="text" id="nombreusuario" placeholder="Ejemplo: Fulano Mengano" required>
+                </div>
+    
+                <div>
+                    <label for="edad">Edad</label>
+                    <input type="number" id="edad" placeholder="Ejemplo: 25" required>
+                </div>
+    
+                <div>
+                    <label for="correoelectronico">Correo Electrónico</label>
+                    <input type="email" id="correoelectronico" placeholder="Ejemplo: fulanomengano@hotmail.com" required>
+                </div>
+    
+                <div>
+                    <label for="telefono">Número de teléfono</label>
+                    <input type="tel" id="telefono" placeholder="Ejemplo: 594-4544-4574">
+                </div>
+    
+                <div>
+                    <label for="destino">Destino</label>
+                    <select name="" id="destino">
+                        <option value="Francia">Francia</option>
+                        <option value="Holanda">Holanda</option>
+                        <option value="Estados Unidos">Estados Unidos</option>
+                        <option value="España">España</option>
+                        <option value="Inglaterra">Inglaterra</option>
+                    </select>
+                </div>
+    
+                <div>
+                    <label for="comentarios">Escribí tu mensaje</label>
+                    <textarea name="" id="comentarios" cols="30" rows="10"></textarea>
+                </div>
+    
+                <div>
+                    <label for="">¿Aceptás términos y condiciones?</label>
+                    <input type="checkbox" value="aceptaterminos" required>
+                </div>
+    
+                <div>
+                    <span>¿Querés suscribirte al Newsletter de Traveleando?</span>
+                    <label for="si">Sí</label>
+                    <input type="radio" name="noticias" value="si">
+                    <label for="no">No</label>
+                    <input type="radio" name="noticias" value="no">
+                </div>
+    
+                <div>
+                    <input class="formulario__button" type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
+
+        <section class="somos">
+            <h2 class="somos__title">¿Quiénes somos?</h2>
+            <p> Somos un grupo de personas que aman viajar y nuestro objetivo es ayudarte a conocer el mundo, ya sea trabajando y viajando, o simplemente a través de nuestros artículos. Tratamos de motivar y animar a nuestros lectores a empezar sus aventuras y cambiar sus vidas.</p>
+        </section>
+
+        <section class="sociales">
+            <h2 class="sociales__title">Redes sociales</h2>
+            <div class="sociales__caja">
+                <i class="bi bi-facebook">Facebook</i>
+
+                <i class="bi bi-instagram">Instagram</i>
+
+                <i class="bi bi-twitter">Twitter</i>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div>
+            <a href="../index.html"><img src="../img/flight.png" alt="Logo de la empresa"></a>
+        </div>
+        <div class="footer__text">
+            <h4><strong>En Traveleando siempre tratamos de brindar el mejor servicio</strong></h4>
+            <ul>
+                <li>Términos de uso</li>
+                <li>Políticas de Privacidad</li>
+            </ul>
+            <p>Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
