@@ -129,14 +129,13 @@ img{
     background-color: rgba(219, 216, 230, 0.788);
     padding: 5px;
     text-align: center;
-
     font-family: 'Permanent Marker', sans-serif;
-    color: rgb(243, 12, 12);
+    color: rgb(138, 18, 102);
     font-size: 0.8rem;
     transition-duration: 2s;
 }
 .hero__button:hover{
-    background-color: rgb(195, 224, 32);
+    background-color: rgb(135, 194, 25);
     transform: scale(1.1);
 }
 
@@ -208,7 +207,7 @@ img{
     transition-duration: 2s;
 }
 .destinos__button:hover{
-    background-color: rgb(195, 224, 32);
+    background-color: rgb(135, 194, 25);
     transform: scale(1.2);
 }
 
@@ -250,7 +249,7 @@ img{
     transition-duration: 2s;
 }
 .porque__button:hover{
-    background-color: rgb(195, 224, 32);
+    background-color: rgb(135, 194, 25);
     transform: scale(1.2);
 }
 
@@ -494,7 +493,7 @@ img{
     transition-duration: 2s;
 }
 .destinos-dos__button:hover{
-    background-color: rgb(195, 224, 32);
+    background-color: rgb(135, 194, 25);
     transform: scale(1.2);
 }
 
@@ -543,7 +542,7 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 2px;
     margin-top: 15px;
 }
 .experiencias__title{
@@ -610,7 +609,7 @@ img{
 
 .experiencias__button{
     padding: 5px;
-    color: rgb(40, 24, 148);
+    color: rgb(228, 106, 25);
     font-family: 'Permanent Marker', sans-serif;
     text-align: center;
     font-size: 0.8rem;
@@ -620,7 +619,7 @@ img{
     transition-duration: 2s;
 }
 .experiencias__button:hover{
-    background-color: rgb(68, 19, 202);
+    background-color: rgb(117, 233, 8);
     transform: scale(1.2);
 }
 
@@ -645,7 +644,7 @@ img{
         padding: 10px;
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 10px;
     }
     .franco{
         flex-direction: row;
@@ -655,7 +654,7 @@ img{
         padding: 10px;
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 10px;
     }
     .leticia{
         flex-direction: row;
@@ -690,6 +689,9 @@ img{
     }
     .leticia__text{
         padding: 40px;
+    }
+    .leticia iframe{
+        width: 70%;
     }
     .experiencias__button{
         width: 300px;
@@ -744,7 +746,7 @@ img{
     transition-duration: 2s;
 }
 .precios__button:hover{
-    background-color: rgb(195, 224, 32);
+    background-color: rgb(135, 194, 25);
     transform: scale(1.2);
 }
 
